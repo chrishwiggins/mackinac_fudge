@@ -2,8 +2,20 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Yelp and Google ratings
-yelp_ratings = [4.53, 3.7, 4.2, 4.0, 4.5, 3.9]
+# OLD
+#yelp_ratings = [4.53, 3.7, 4.2, 4.0, 4.5, 3.9]
+#google_ratings = [4.8, 4.7, 4.33, 4.4, 4.35, 4.5]
+# NEW
+yelp_ratings = [4.53, 4.2, 4.33, 4.5, 3.9, 3.9]
 google_ratings = [4.8, 4.7, 4.33, 4.4, 4.35, 4.5]
+# DATA:
+# Name       Yelp   Google
+# Joanns     4.53   4.8
+# Mays       4.2    4.7
+# Murdicks   4.33   4.33
+# Murray     4.5    4.4
+# Rybas      3.9    4.35
+# Sanders    3.9    4.5
 
 # Names for labeling
 names = ["Joanns", "Mays", "Murdicks", "Murray", "Rybas", "Sanders"]
