@@ -16,8 +16,8 @@ for i, name in enumerate(names):
     plt.text(google_ratings[i], yelp_ratings[i], name, fontsize=8)
 
 # Red line y=x
-min_val = min(min(google_ratings), min(yelp_ratings))
-max_val = max(max(google_ratings), max(yelp_ratings))
+min_val = min(min(google_ratings), min(yelp_ratings)) - 0.1  # Padding
+max_val = max(max(google_ratings), max(yelp_ratings)) + 0.1  # Padding
 x = np.linspace(min_val, max_val, 100)
 plt.plot(x, x, color='red')
 
